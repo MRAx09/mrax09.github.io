@@ -17,7 +17,7 @@ div {
 	padding-top: 20px;
 	padding-right: 30px;
 	padding-bottom: 50px;
-	padding-left: 40px;
+	padding-left: 30px;
 }
 h1 {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -26,15 +26,13 @@ h1 {
 	text-align: center;
 	color: black;
 }
-
 h2 {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 20px;
 	text-transform: capitalize;
 	text-align: center;
 	color: black;
-}
-	
+}	
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -47,7 +45,6 @@ li {
 	padding: 12px;
 	color: black;
 }
-
 a:link
 { /* unvisited link */
 color: black;
@@ -68,7 +65,6 @@ a:active
 color: #606060;
 text-decoration: none;
 }
-
 footer {
 	background-color: black;
 }
@@ -104,7 +100,7 @@ p {
 	width: 100% !important;
 	height: auto !important;
 	margin-bottom:20px; /* to match column gap */
-	box-shadow: -2px 2px 10px lightslategrey;
+	box-shadow: -2px 6px 6px lightslategrey;
  }
  
  @media (max-width: 4000px) {
