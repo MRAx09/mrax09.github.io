@@ -107,6 +107,13 @@ p {
 	box-shadow: -2px 2px 4px 4px lightslategrey;
  }
  
+ @media (max-width: 4000px) {
+	#gallery {
+	 -moz-column-count:    4;
+	 -webkit-column-count: 4;
+	 column-count:         4;
+	}
+ }
  @media (max-width: 1200px) {
 	#gallery {
 	 -moz-column-count:    3;
