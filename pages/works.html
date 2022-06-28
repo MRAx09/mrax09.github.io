@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-us">
 <head>
 <meta charset="utf-8"> 
 <meta name="description" content="Portfolio Works">
@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav id="navbar">
         <header>
             <div id ="roundc1">
                 <h1 id="h1">Arts by Martin</h1>
@@ -17,41 +17,56 @@
     
                 <ul id="ul">
                     <li><a href="/index.html">Home</a></li>
-                    <li>Works</li>
-                    <li><a href="pages/tos.html">Terms of Service</a></li>
-                    <li><a href="pages/about.html">About</a></li>
+                    <li><b>Works</b></li>
+                    <li><a href="/pages/tos.html">Terms of Service</a></li>
+                    <li><a href="/pages/about.html">About</a></li>
                     <li>Contact Us</li>
                 </ul>
             </div>
         </header>
     </nav>
 
-    <div id="gallery">
-    
-    <img src="/media/Above.jpg">
-    <img src="/media/ABSTRACTION_05.png">
-    <img src="/media/mark_7_MARKED.jpg">
-    <img src="/media/Mountain Studies_MARKED_v3.png">
-    <img src="/media/Symmetry1.jpg">
-    <img src="/media/Values.jpg">
-    <img src="/media/Above.jpg">
-    <img src="/media/ABSTRACTION_05.png">
-    <img src="/media/mark_7_MARKED.jpg">
-    <img src="/media/Mountain Studies_MARKED_v3.png">
-    <img src="/media/Symmetry1.jpg">
-    <img src="/media/Values.jpg">
-    <img src="/media/Above.jpg">
-    <img src="/media/ABSTRACTION_05.png">
-    <img src="/media/mark_7_MARKED.jpg">
-    <img src="/media/Mountain Studies_MARKED_v3.png">
-    <img src="/media/Symmetry1.jpg">
-    <img src="/media/Values.jpg">
-    
-    </div>
+    <main class = "content">
+        <div id="gallery" class="gallery">
+            <a href="/media/Above.jpg">
+                <img id="gallery-img" src="/media/Above.jpg">
+            </a>
+            <a href="/media/ABSTRACTION_05.png">
+                <img id="gallery-img" src="/media/ABSTRACTION_05.png">
+            </a>
+            <a href="/media/mark_7_MARKED.jpg">
+                <img id="gallery-img" src="/media/mark_7_MARKED.jpg">
+            </a>
+            <a href="/media/Mountain Studies_MARKED_v3.png">
+                <img id="gallery-img" src="/media/Mountain Studies_MARKED_v3.png">
+            </a>
+            <a href="/media/Symmetry1.jpg">
+                <img id="gallery-img" src="/media/Symmetry1.jpg">
+            </a>
+            <a href="/media/Values.jpg">
+                <img id="gallery-img" src="/media/Values.jpg">
+            </a>
+            <a href="/media/Gammamon.jpg">
+                <img id="gallery-img" src="/media/Gammamon.jpg">
+            </a>
+            <a href="/media/gundm_marked.jpg">
+                <img id="gallery-img" src="/media/gundm_marked.jpg">
+            </a>
+        </div>
 
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img">
+            <div id="caption"></div>
+        </div>
+
+    </main>
+    
     <footer>
-        <p>&copy; 2022 martin a.</p>
+        <p>&copy; 2022 MARTIN R. ARMENTA ESPINOZA</p>
     </footer>
- 
+    <script src="/modal.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
